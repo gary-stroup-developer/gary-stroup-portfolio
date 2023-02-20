@@ -1,0 +1,93 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+  min-height: 100vh;
+}
+
+.introduction {
+  font-size: clamp(2.0rem,2.5rem,5.5rem);
+}
+
+.details {
+  font-size: clamp(1.0rem,1.2rem,1.5rem);
+  font-weight: 300;
+  max-width: 700px;
+  line-height: 1.5;
+  margin: 1rem auto;
+}
+
+.icons {
+  font-size: 2.1rem;
+}
+
+
+.description p {
+  position: relative;
+  margin: 0;
+  padding: 1rem;
+  background-color: rgba(var(--callout-rgb), 0.5);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+}
+
+.code {
+  font-weight: 700;
+  font-family: var(--font-mono);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  width: 82rem;
+  max-width: 100%;
+  margin: 1rem auto;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  padding: 0.5rem 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80rem;
+  max-width: 100%;
+}
+
+.card {
+  padding: 1rem 1.2rem;
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  transition: background 200ms, border 200ms;
+}
+
+.card span {
+  display: inline-block;
+  transition: transform 200ms;
+}
+
+.card h2 {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.card p {
+  margin: 0;
+  opacity: 0.6;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 30ch;
+}
+
+
+/* Tablet and Smaller Desktop */
+@media (max-width: 1120px) {
+  /* .details {
+    font-size: 1.2rem;
+    font-weight: 300;
+  } */
+}
