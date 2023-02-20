@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useState } from 'react';
-import { FiMenu } from "react-icons/fi";
+
 
 
 export default function NavBar() {
@@ -25,7 +25,7 @@ export default function NavBar() {
                 </li>
             </ul>
             <div className="menuicon" onClick={mobileNav}>
-               <FiMenu />
+               
             </div>
             
         </div>

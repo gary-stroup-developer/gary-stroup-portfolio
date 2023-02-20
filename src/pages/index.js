@@ -1,8 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
-import pic from "../../public/images/gary.jpg";
-import Footer from '@/components/Footer';
 import NavBar from '@/components/NavBar';
 
 
@@ -17,9 +14,9 @@ export default function Home() {
       </Head>
       <NavBar />
       <main className={styles.main}>
-        <Image
+        <img
           className='profilepic'
-          src={pic}
+          src="/images/gary.jpg"
           alt="gary stroup profile picture"
         />
         <div>
@@ -31,7 +28,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <Footer />
+      
     </>
   )
 }
