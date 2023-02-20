@@ -25,7 +25,7 @@ export default function NavBar() {
                 </li>
             </ul>
             <div className="menuicon" onClick={mobileNav}>
-               <FiMenu /> 
+               <FiMenu />
             </div>
             
         </div>

@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
-import NavBar from '@/components/NavBar'
 import pic from "../../public/images/gary.jpg";
-import Footer from '@/Components/Footer';
+import Footer from '@/components/Footer';
+import NavBar from '@/components/NavBar';
+
 
 
 export default function Home() {
