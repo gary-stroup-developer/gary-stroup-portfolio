@@ -7,8 +7,8 @@ export default function Footer() {
 
     return (
         <div className="footer">
-            <p className={styles.details}>Gary Stroup &#169; 2023</p>
-            <div className={styles.flex}>
+            <p className={[styles.footerName]}>Gary Stroup &#169; 2023</p>
+            <div className={[styles.footerIcons]}>
                 <a href="https://medium.com/@stroup.uxuidesign"><AiFillMediumSquare className={styles.icons} /> </a>
                 <a href="https://www.linkedin.com/in/gary-stroup-2317a247"><AiFillLinkedin className={styles.icons} /></a>
                 <a href="https://www.instagram.com/gary.codez/"><AiOutlineInstagram className={styles.icons} /></a>  

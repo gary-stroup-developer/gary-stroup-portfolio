@@ -1,15 +1,28 @@
 import Link from 'next/link';
-import { useState } from 'react';
-
+import { useState,useEffect } from 'react';
+import { AiOutlineMenu } from "react-icons/ai";
 
 
 export default function NavBar() {
 
-    const [isMobile, setIsMobile] = useState("false");
+    const [isMobile, setIsMobile] = useState(false);
 
     function mobileNav() {
         setIsMobile(!isMobile)
     }
+
+    function updateMenu() {
+        let view = window.innerWidth;
+        if (view > 800) {
+            setIsMobile(false);
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener("resize", updateMenu);
+        return () => window.removeEventListener("resize", updateMenu);
+    }, [])
+
     return (
         <div className="navbar">
             <p className="navbar_author">Gary Stroup</p>
@@ -25,7 +38,7 @@ export default function NavBar() {
                 </li>
             </ul>
             <div className="menuicon" onClick={mobileNav}>
-               
+               <AiOutlineMenu />
             </div>
             
         </div>

@@ -23,6 +23,7 @@ body {
   font-size: 1.2rem;
   justify-content: space-between;
   list-style: none;
+  margin-left: 2rem;
 }
 
 .menuicon {
@@ -39,6 +40,50 @@ body {
   max-height: 250px;
 }
 
+.topSection {
+  text-align: center;
+}
+
+.aboutmeHobbyPhoto {
+  width: 45%;
+  height: auto;
+  border-radius: 20px;
+  margin: 2rem auto;
+}
+
+.readingListHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 175px;
+  font-size: clamp(2.0rem,2.5rem,5.5rem);
+  margin: 2.5rem auto;
+  background-color: hsl(172.79999999999998,66.13756613756614%,37.05882352941177%);
+}
+
+.readingList section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 2.5rem auto;
+  width: 100%;
+}
+
+.readingList .title{
+  font-size: calc((2.2 - 1) * 1.2vw + 1rem);
+  color: hsla(172.79999999999998,66.13756613756614%,37.05882352941177%,1);
+  margin: 1.5rem auto;
+}
+
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4,clamp(15%, 250px,1fr));
+  grid-template-rows: repeat(2,7rem);
+  gap: 50px;
+  padding: 1rem;
+}
 
 
 @media (max-width: 700px) {
@@ -71,8 +116,9 @@ body {
         background: #616161;
     }
 
-    /* .profilepic {
-      width: 10rem;
-      height: 10rem;
-    } */
+    .aboutmeHobbyPhoto {
+      width: 70%;
+      height: auto;
+      border-radius: 20px;
+    }
 }

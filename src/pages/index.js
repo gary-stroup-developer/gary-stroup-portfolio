@@ -10,6 +10,7 @@ export default function Home() {
       <Head>
         <title>Gary Stroup Developer</title>
         <meta name="description" content="Gary Stroup web development portfolio" />
+        <meta name="description" content="Gary Stroup frontend developer" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <NavBar />
