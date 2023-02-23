@@ -1,0 +1,40 @@
+/* .about {
+  width: 82rem;
+  max-width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+} */
+
+.hobby {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 1;
+  margin: auto;
+}
+
+.aboutmeHobbyPhoto {
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+    margin: 2rem auto;
+}
+
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 700px) {
+    .hobby {
+    flex-direction: row;
+    justify-content: space-around;
+
+    }
+
+    .aboutmeHobbyPhoto {
+    width: 45%;
+    height: auto;
+    border-radius: 20px;
+    
+    }
+
+}

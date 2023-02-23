@@ -1,4 +1,4 @@
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Footer.module.css'
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillMediumSquare } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
@@ -6,7 +6,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 export default function Footer() {
 
     return (
-        <div className="footer">
+        <div className={styles.footer}>
             <p className={[styles.footerName]}>Gary Stroup &#169; 2023</p>
             <div className={[styles.footerIcons]}>
                 <a href="https://medium.com/@stroup.uxuidesign"><AiFillMediumSquare className={styles.icons} /> </a>

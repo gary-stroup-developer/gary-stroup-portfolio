@@ -2,16 +2,16 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '@/styles/Home.module.css';
-import { IoReturnUpBackSharp } from "react-icons/io";
+import aboutCSS from '@/styles/About.module.css';
 
 export default function About() {
   return (
-    <div className={styles.about}>
-      <Link className={styles.link } href="/">  Home </Link>
+    <div className={'container'}>
+      <Link className= 'link' href="/">  Home </Link>
       <div className="topSection">
         <div>
           <Image
-            className='aboutmeHobbyPhoto'
+            className={aboutCSS.aboutmeHobbyPhoto}
             src="/images/aboutmephoto1.jpg"
             alt="my wife and I on a date"
             width={300}
@@ -50,7 +50,7 @@ export default function About() {
           </p>
         </section>
         <section>
-          <p className="title">Man’s Search For Meaning</p>
+          <p className="title">Mans Search For Meaning</p>
           <p className={styles.details}>
             Detailed account of life in a Nazi Death Camp providing lessons for survival and how to cope with suffering.
           </p>
@@ -59,30 +59,30 @@ export default function About() {
       </div>
 
 
-      <div className={styles.hobby}>
+      <div className={aboutCSS.hobby}>
         <Image
-          className='aboutmeHobbyPhoto'
+          className={aboutCSS.aboutmeHobbyPhoto}
           src="/images/aboutmehobby1.jpg"
           alt="restaurant bar area"
           width={300}
           height={250}
         />
         <Image
-          className='aboutmeHobbyPhoto'
+          className={aboutCSS.aboutmeHobbyPhoto}
           src="/images/aboutmehobby2.jpg"
           alt="round strawberry cheesecake"
           width={300}
           height={250}
         />
         <Image
-          className='aboutmeHobbyPhoto'
+          className={aboutCSS.aboutmeHobbyPhoto}
           src="/images/aboutmehobby3.jpg"
           alt="road leading down from mountain. Snow plowed to both sides."
           width={300}
           height={250}
         />
         <Image
-          className='aboutmeHobbyPhoto'
+          className={aboutCSS.aboutmeHobbyPhoto}
           src="/images/aboutmehobby4.jpg"
           alt="museum room recreating life in 1800's"
           width={300}

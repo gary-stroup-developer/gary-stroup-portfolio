@@ -1,0 +1,26 @@
+.resumePhoto {
+    width: 75%;
+    height: auto;
+    border-radius: 50%;
+    margin: 2rem auto;
+}
+
+.header {
+  font-size: clamp(1.8rem,2.0rem,2.5rem);
+}
+
+.skillsList {
+  font-size: clamp(1.0rem,1.2rem,1.4rem);
+  margin-top: 1.5rem;
+}
+
+.skillsList li {
+  margin: 10px 0;
+}
+
+/* Tablet and Smaller Desktop */
+@media (max-width: 700px) {
+  /* .resume {
+    flex-direction: column;
+  } */
+}

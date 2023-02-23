@@ -7,10 +7,6 @@
   min-height: 100vh;
 }
 
-.link {
-  font-size: clamp(1.4rem,2.1rem,2.5rem);
-}
-
 .introduction {
   font-size: clamp(2.0rem,2.5rem,5.5rem);
   margin: 2.5rem auto;
@@ -23,10 +19,6 @@
   line-height: 1.5;
   text-align: left;
   margin: auto;
-}
-
-.icons {
-  font-size: 2.1rem;
 }
 
 
@@ -46,6 +38,7 @@
 
 .flex {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   width: 82rem;
   max-width: 100%;
@@ -63,74 +56,8 @@
   max-width: 100%;
 }
 
-.about {
-  width: 82rem;
-  max-width: 100%;
-  margin: 1rem auto;
-  padding: 1rem;
-}
-
-.footerName {
-  grid-row-start: 1;
-  grid-column: 1 / 5;
-  font-size: 1.5rem;
-  font-weight: 300;
-  line-height: 1.5;
-  margin: 0 auto;
-}
-
-.footerIcons {
-  grid-row-start: 2;
-  grid-column: 1 / 5;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.hobby {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex: 1;
-  margin: auto;
-}
-
-
-/* Tablet and Smaller Desktop */
-@media (min-width: 700px) {
-  .hobby {
-    flex-direction: row;
-    justify-content: space-around;
-
+@media (max-width: 600px) {
+  .flex {
+    flex-direction: column;
   }
-  /* .details {
-    margin: auto;
-  } */
-
 }
-
-/* .card {
-  padding: 1rem 1.2rem;
-  border-radius: var(--border-radius);
-  background: rgba(var(--card-rgb), 0);
-  border: 1px solid rgba(var(--card-border-rgb), 0);
-  transition: background 200ms, border 200ms;
-}
-
-.card span {
-  display: inline-block;
-  transition: transform 200ms;
-}
-
-.card h2 {
-  font-weight: 600;
-  margin-bottom: 0.7rem;
-}
-
-.card p {
-  margin: 0;
-  opacity: 0.6;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  max-width: 30ch;
-} */

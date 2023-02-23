@@ -11,6 +11,12 @@ export default function Home() {
         <title>Gary Stroup Developer</title>
         <meta name="description" content="Gary Stroup web development portfolio" />
         <meta name="description" content="Gary Stroup frontend developer" />
+        <meta property="og:site_name" content="Gary Stroup " />
+        <meta property="og:title" content="Gary Stroup " />
+        <meta property="og:url" content="https://www.garystroupdeveloper.com" />
+        <meta property="og:type" content="website" />
+        <meta itemprop="name" content="Gary Stroup " />
+        <meta itemprop="url" content="https://www.garystroupdeveloper.com" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <NavBar />

@@ -2,6 +2,9 @@ body {
   font-size: 10px;
 }
 
+.link {
+  font-size: clamp(1.3rem,1.6rem,2.0rem);
+}
 
 .navbar {
   color: white;
@@ -44,12 +47,6 @@ body {
   text-align: center;
 }
 
-.aboutmeHobbyPhoto {
-  width: 45%;
-  height: auto;
-  border-radius: 20px;
-  margin: 2rem auto;
-}
 
 .readingListHeader {
   display: flex;
@@ -77,13 +74,6 @@ body {
 }
 
 
-.footer {
-  display: grid;
-  grid-template-columns: repeat(4,clamp(15%, 250px,1fr));
-  grid-template-rows: repeat(2,7rem);
-  gap: 50px;
-  padding: 1rem;
-}
 
 
 @media (max-width: 700px) {
@@ -116,9 +106,5 @@ body {
         background: #616161;
     }
 
-    .aboutmeHobbyPhoto {
-      width: 70%;
-      height: auto;
-      border-radius: 20px;
-    }
+    
 }
