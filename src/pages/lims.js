@@ -7,12 +7,10 @@ const lims = () => {
   return (
     <div className={'container'}>
       <Link className='link' href="/projects">  Projects </Link>
-      <h1 className={styles.title}>Projects</h1>
+      <h1 className={styles.title}>Job Management Database</h1>
       <div className='container'>
         <section>
-          <h1 className={styles.projectHeader}>Job Management Database</h1>
-          <div className='flex-container'>
-            
+          <div className='flex-container'> 
             <Image
               className={styles.projectImage}
               src="/images/login.svg"
