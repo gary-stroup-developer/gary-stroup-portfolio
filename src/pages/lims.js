@@ -46,7 +46,7 @@ const lims = () => {
             />
             <p className={styles.ImageSummary}>
               This is the form to create a new job request. User can search product by part number. Once the part number is found 
-              in the database, the product description, cell line description, and cell line part numebr fields are auto-populated 
+              in the database, the product description, cell line description, and cell line part number fields are auto-populated 
               with the respective information.
             </p>
           </div>
@@ -60,7 +60,8 @@ const lims = () => {
             />
             <p className={styles.ImageSummary}>
               This image shows the current capacity. Below, the capacity will be updated and the user is notified by a message in the top 
-              left corner of the screen.
+              left corner of the screen. I decided to build the workflow like a kanban system, where the user can move the job through the 
+              different stages of the production cycle. Video demonstration can be found on my instagram.
             </p>
           </div>
           <div className='flex-container gap'>
