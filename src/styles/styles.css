@@ -35,12 +35,12 @@ body {
 
 .profilepic {
   border: none;
-  border-radius: 50%;
+  border-radius: 5%;
   margin: 2rem auto;
-  width:70%;
-  max-width: 250px;
+  width:80%;
+  max-width: 550px;
   height: auto;
-  max-height: 250px;
+  /* max-height: 350px; */
 }
 
 .topSection {
@@ -72,6 +72,8 @@ body {
   color: hsla(172.79999999999998,66.13756613756614%,37.05882352941177%,1);
   margin: 1.5rem auto;
 }
+
+
 
 
 

@@ -111,6 +111,10 @@ ul {
   flex-wrap: wrap;
 }
 
+.gap {
+  margin-top: 5rem;
+}
+
 .container {
   width: 82rem;
   max-width: 100%;
