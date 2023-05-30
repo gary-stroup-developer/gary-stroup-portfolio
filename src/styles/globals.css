@@ -115,11 +115,22 @@ ul {
   margin-top: 5rem;
 }
 
+.margin {
+  margin: 4rem auto;
+}
+
 .container {
   width: 82rem;
   max-width: 100%;
   margin: 1rem auto;
   padding: 1rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 @media (prefers-color-scheme: dark) {
