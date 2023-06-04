@@ -6,6 +6,14 @@ body {
   font-size: clamp(1.3rem,1.6rem,2.0rem);
 }
 
+.bio-link {
+  font-size: 1.3rem;
+}
+
+.bio-link:hover {
+  color: #333;
+}
+
 .navbar {
   color: white;
   display: flex;

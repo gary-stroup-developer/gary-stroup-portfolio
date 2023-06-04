@@ -1,6 +1,6 @@
  .projectImage {
     width: 90%;
-    max-width: 800px;
+    max-width: 600px;
     height: auto;
     margin: 2rem auto;
     border-radius: 5%;
@@ -11,6 +11,12 @@
     font-size: 2.8rem;
     text-align: center;
     margin: 2rem auto;
+}
+
+.subtitle {
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 1rem auto;
 }
 
 .projectHeader {

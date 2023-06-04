@@ -18,10 +18,25 @@ export default function Projects() {
                 className={styles.projectImage}
                 src="/images/login.svg"
                 alt="login screen of the application."
-                width={350}
-                height={300}
+                width={600}
+                height={450}
                 />
               </Link>
+          </div>
+        </section>
+        <section className='flex-container'>
+          <h1 className={styles.projectHeader}>Frontend Mentor Challenge: Space Tourism</h1>
+          <div>
+            <Link className='link' href="/spaceTourism">    
+              <Image
+                className={styles.projectImage}
+                src="/images/space-tourism.png"
+                alt="a frontend mentor challenge of creating a furniture store landing page."
+                width={600}
+                height={450}
+                />
+            </Link>
+           
           </div>
         </section>
       </div>
