@@ -37,7 +37,7 @@ const SpaceTourism = () => {
                     used. 
                 </p>
                 <p className={styles.projectSummary}>
-                    A link to the repository can be found <Link className='bio-link' href="https://gary-stroup-developer.github.io/space-tourism/">here.</Link>
+                    A link to the repository can be found <Link className='bio-link' href="https://github.com/gary-stroup-developer/space-tourism">here.</Link>
                     The actual website can be found here at <Link className='bio-link' href="https://gary-stroup-developer.github.io/space-tourism/">Space Tourism website.</Link>
                 </p>
               
@@ -48,4 +48,3 @@ const SpaceTourism = () => {
 }
 
 export default SpaceTourism;
-// "https://github.com/gary-stroup-developer/space-tourism"
