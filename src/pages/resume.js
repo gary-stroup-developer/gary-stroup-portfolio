@@ -21,9 +21,12 @@ export default function Resume() {
         <div>
           <h2 className={home.introduction}>Gary Stroup</h2>
           <p className={home.details}>
-            Gary is a self-taught web developer with knowledge to build full-stack applications.
-            Gary is focusing on adding value at his current employer by building a job management application 
-            for his department. 
+            Gary is a highly motivated and self-taught web developer with knowledge in building full-stack
+            applications. With a strong focus on delivering value, he is currently dedicated to developing a job management
+            application for his department. By leveraging his technical expertise and problem-solving skills, Gary aims to 
+            streamline and optimize operations, resulting in enhanced efficiency and productivity. Committed to staying at 
+            the forefront of industry trends, he actively seeks out opportunities to learn new concepts and acquire additional 
+            skills, maintaining a continuous improvement mindset to consistently deliver exceptional results.
           </p>
         </div>
       </div>
@@ -54,16 +57,20 @@ export default function Resume() {
             <li>Docker</li>
             <li>AWS</li>
             <li>Canva</li>
-            <li>Project Management</li>
+            <li>UX Design</li>
+            <li>MongoDB</li>
+            <li>PostgreSQL</li>
+            <li>Version Control</li>
           </ul>
         </div>
         <div className='container'>
-          <p className={styles.header}>Soft Skills</p>
+          <p className={styles.header}>Other Skills</p>
           <ul className={styles.skillsList}>
-            <li>Team Work</li>
-            <li>Problem Solving</li>
+            <li>Project Management</li>
+            <li>Lean Six Sigma Green Belt</li>
             <li>Communication</li>
             <li>Organization</li>
+            <li>Teacher/Mentor to empower others</li>
           </ul>
         </div>
       </div>
