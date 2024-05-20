@@ -21,12 +21,11 @@ export default function Resume() {
         <div>
           <h2 className={home.introduction}>Gary Stroup</h2>
           <p className={home.details}>
-            Gary is a highly motivated and self-taught web developer with knowledge in building full-stack
-            applications. With a strong focus on delivering value, he is currently dedicated to developing a job management
-            application for his department. By leveraging his technical expertise and problem-solving skills, Gary aims to 
-            streamline and optimize operations, resulting in enhanced efficiency and productivity. Committed to staying at 
-            the forefront of industry trends, he actively seeks out opportunities to learn new concepts and acquire additional 
-            skills, maintaining a continuous improvement mindset to consistently deliver exceptional results.
+            Gary is a highly motivated process engineer and self-taught web developer with a strong focus on delivering value.
+            By leveraging his technical expertise and problem-solving skills, Gary aims to streamline and optimize operations,
+            resulting in enhanced efficiency and productivity. Committed to staying at the forefront of industry trends, he
+            actively seeks out opportunities to learn new concepts and acquire additional skills, maintaining a continuous
+            improvement mindset to consistently deliver exceptional results.
           </p>
         </div>
       </div>

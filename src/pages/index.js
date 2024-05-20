@@ -31,10 +31,10 @@ export default function Home() {
         />
         <div>
           <p className={styles.introduction}>Hi! I'm Gary</p>
-          <p className={styles.details}>I am a self-taught web developer </p>
+          <p className={styles.details}>I am a process engineer by day and self-taught software developer by night</p>
           <div className={styles.details}>
-            <p>I enjoy writing code to build statuc websites and dynamic web applications</p>
-            <p>You can find my blogs on Medium, where I share my knowledge of web development</p>
+            <p>Process engineering and software development allow me to blend analytical skills with creativity.</p>
+            <p>Both allow me to create solutions that provide a positive impact in the lives of others.</p>
           </div>
         </div>
       </main>
